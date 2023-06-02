@@ -28,7 +28,7 @@ function App() {
     setInterval(() =>{
       refetch();
     }, 3000);
-  }, []);
+  }, [data]);
 
   useEffect(() =>{
     console.log({ data });
